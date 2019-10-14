@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body{
+    margin : 3rem 1.5rem;
+    padding : 1rem;
+}
+
+#intro{
+    border : 0.5rem solid black;
+    margin : 0.1rem;
+    padding : 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+div.title{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+img.MJ_logo{
+    width : 60%;
+}
+
+div.content{
+    font-size: 2.2rem;
+    text-align: center;
+    
+}
+
+
+@media only screen and (max-device-width : 768px){
+    #intro{
+        border : 0.5rem solid black;
+        margin : 2rem 1rem;
+        padding : 0.1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.title{
+        font-size: 5rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    img.MJ_logo{
+        width : 60%;
+    }
+    
+    div.content{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+}
+
+
+@media only screen and (max-device-width : 414px){
+ 
+    #intro{
+        border : 0.5rem solid black;
+        margin : 2rem 1rem;
+        padding : 0.1rem;
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    div.title{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    
+    }
+
+    img.MJ_logo{
+        width : 60%;
+    }
+
+    div.content{
+        font-size: 1.1rem;
+        text-align: center;
+        
+    }
+
+
+}
+

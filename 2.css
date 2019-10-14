@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body{
+    text-align: center;
+}
+
+header{
+    background-color: rgb(191, 215, 216);
+    
+}
+h3.masthead-brand{
+    font-weight: bold;
+
+}
+a.nav-link{
+    color: black;
+    font-weight: bold;
+}
+
+.container{
+    margin : 0 auto;
+    float : none;
+    margin-bottom: 1rem;
+    
+}
+
+footer{
+    background-color: rgb(112, 125, 139);
+}
